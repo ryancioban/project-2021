@@ -9,7 +9,7 @@
         <h2>Camera Feed</h2>
         <br>
 
-        <img src="http://192.168.2.38:8081/" alt="Camera is not here :(">
+        <img src="http://192.168.2.38:8081/" alt="Camera is down :(">
 
     </body>
 </html>
