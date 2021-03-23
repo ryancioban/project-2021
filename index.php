@@ -9,8 +9,7 @@
         <h2>Camera Feed</h2>
         <br>
 
-        <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 25%);" 
-        src="http://192.168.2.38:8081/" alt="Camera is down :(">
+        <img src="http://192.168.2.38:8081/" alt="Camera is down :(">
 
     </body>
 </html>
