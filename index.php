@@ -10,7 +10,7 @@
         <br>
 
         <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 25%);" 
-        src="http://192.168.2.38:8081/" width="387" height="290">
+        src="http://192.168.2.38:8081/" >
 
     </body>
 </html>
