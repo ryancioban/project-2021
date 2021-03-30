@@ -17,7 +17,7 @@ window.addEventListener('load', function()
         var now = new Date();
         // Date string is appended as a query with live data 
         // for not to use the cached version 
-        var url = 'livefeed.txt?' + now.getTime();
+        var url = 'livefeed.php?' + now.getTime();
         xhr = getXmlHttpRequestObject();
         xhr.onreadystatechange = evenHandler;
         // asynchronous requests
