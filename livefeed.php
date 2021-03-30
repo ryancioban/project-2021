@@ -3,13 +3,13 @@
 <br>
 
 <?php
-$output = `gpio read 2`;
+$output = shell_exec('gpio read 2');
 
-if (($output = `gpio read 2`) == 0){
+if ($output == 0){
     echo "<br>Switch is LOW!<br>";
 }
 
-else if (($output = `gpio read 2`) == 1){
+else if ($output == 1){
     echo "<br>Switch is HIGH!<br>";
 }
 ?>
