@@ -1,7 +1,14 @@
 <!DOCTYPE html>
+<?php
+    //Uncomment these lines for auto-refresh
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "3";
+?>
 <html>
     <head>
         <title>Cam-Lock</title>
+        <!--Auto-refresh page-->
+        <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
     </head>
 
     <body>
