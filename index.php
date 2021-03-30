@@ -2,7 +2,7 @@
 <?php
     //Uncomment these lines for auto-refresh
     $page = $_SERVER['PHP_SELF'];
-    $sec = "0.5";
+    $sec = "10";
 ?>
 <html>
     <head>
