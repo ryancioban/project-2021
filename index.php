@@ -17,7 +17,6 @@
         <script type="text/javascript" language="javascript">
 
         function getDate() {
-            alert(Date());
             document.getElementById('date').innerText = Date().toString();
         }
 
