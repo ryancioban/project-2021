@@ -11,6 +11,7 @@
 
         <img src="http://pizero:8081/" alt="Camera is down :(">
         <br>
-        <div>The time is @DateTime.Now </div>
+        <p>The time is <%= DateTime.Now %></p>
+
     </body>
 </html>
