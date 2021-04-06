@@ -36,8 +36,8 @@ window.addEventListener('load', function()
             dataDiv = document.getElementById('liveData');
             // Set current data text
             dataDiv.innerHTML = xhr.responseText;
-            // Update the live data every 1 sec
-            setTimeout(updateLiveData(), 10000);
+            // Update the live data every 30 sec
+            setTimeout(updateLiveData(), 30000);
         }
     }
 });
