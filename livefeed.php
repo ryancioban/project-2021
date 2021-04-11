@@ -1,9 +1,5 @@
-<br>
-<div>Hello humans!</div>
-<br>
-
 <?php
-$output = shell_exec('gpio read 2');
+$output = shell_exec('ssh pi@pizero gpio read 2');
 
 if ($output == 0){
     echo "<br>Switch is LOW!<br>";
