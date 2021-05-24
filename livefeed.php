@@ -9,20 +9,21 @@ if ($output == 0){
     $buf = 0;
 }
 
-else {
-    echo "<br>Door Status: UNLOCKED<br>";
+else if ($output == 1){
+    //echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
 
     if ($buf == 0) {
-        echo "the code works";
+        echo "<br>Door Status: UNLOCKED<br>";
         $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
         echo "<div>$comm</div>";
+        buf++
     }
 
     //$comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     //echo "<div>$comm</div>";
     else
-        $buf = 1;
+        echo "<br>The door is unlocked and the code works.<br>";
 
 
     //if ($buf == 0) {
