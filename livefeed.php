@@ -27,4 +27,5 @@ else if ($output == 1){
 
 //echo "<div>$comm</div>";
 echo "<br><div>$log</div><br>";
+sleep(10);
 ?>
