@@ -10,7 +10,7 @@ if ($output == 0){
 }
 
 else if ($output == 1){
-    echo "<br>Door Status: UNLOCKED<br>";
+    //echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
 
     if ($buf == 1) {
