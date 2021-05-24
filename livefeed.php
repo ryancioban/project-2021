@@ -11,20 +11,20 @@ $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output == 1){
     echo "<br>Door Status: UNLOCKED<br>";
-    for ($buf = 0; $buf < 2; $buf++){
-        if ($buf == 1){
-            break;
-        }
+    if ($buf == 1){
+        goto end;
+    }
     $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     echo "<div>$comm</div>";
-    }
+    $buf++;
 }
 
-else {
-//if ($output == 0){
+else{
     echo "<br>Door Status: LOCKED<br>";
+    $buf = 0;
 }
 
+end:
 //echo "<div>$comm</div>";
 echo "<br><div>$buf</div><br>";
 echo "<br><div>$log</div><br>";
