@@ -4,7 +4,7 @@ $output2 = shell_exec('gpio read 2');
 $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output2 == 0){
-    echo "<br>nothing here<br>";
+    //echo "<br>nothing here<br>";
     goto end;
 }
 
