@@ -6,22 +6,25 @@ $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output == 0){
     echo "<br>Door Status: LOCKED<br>";
-    $buf=0;
 }
 
-elseif ($output==1 && $buf==0){
+elseif ($output==1){
     echo "<br>Door Status: UNLOCKED<br>";
-    shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
+    for ($x=0; $x<10; $x++){
+        if ($x < 9) goto end;
+
+        shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
+    }
     //echo "<div>$comm</div>";
-    $buf=1;
 }
 
-else {
+/*else {
     echo "<br>Door Status: UNLOCKED<br>";
-}
+}*/
 
 //echo "<div>$comm</div>";
-echo "<br><div>$buf</div><br>";
+//echo "<br><div>$buf</div><br>";
+end:
 echo "<br><div>$log</div><br>";
 
 ?>
