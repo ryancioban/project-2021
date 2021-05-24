@@ -12,7 +12,7 @@ window.addEventListener('load', function()
         return xhr;
     };
 
-    updateLiveData = function()
+    updateLiveData2 = function()
     {
         var now = new Date();
         // Date string is appended as a query with live data 
@@ -26,7 +26,7 @@ window.addEventListener('load', function()
         xhr.send(null);
     };
 
-    updateLiveData();
+    updateLiveData2();
 
     function evenHandler()
     {
@@ -37,7 +37,7 @@ window.addEventListener('load', function()
             // Set current data text
             dataDiv.innerHTML = xhr.responseText;
             // Update the live data every 10 sec
-            setTimeout(updateLiveData(), 20000);
+            setTimeout(updateLiveData2(), 10000);
         }
     }
 });
