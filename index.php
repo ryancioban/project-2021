@@ -26,5 +26,9 @@
         <div id="liveData">
             <p>Loading Data...</p>
         </div>
+
+        <div id="liveData2">
+            <p>Loading Data...</p>
+        </div>
     </body>
 </html>
