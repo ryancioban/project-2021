@@ -10,7 +10,7 @@
         <h2>Camera Feed</h2>
         <br>
 
-        <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
+        <!--<img src="http://65.94.43.3:8081/" alt="Camera is down :(">-->
         <br>
         <p>The time is : <span id="date"></span>.</p>
 
