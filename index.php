@@ -24,10 +24,10 @@
         </script>
 
         <?php
-        function setter(buf) {
-            $buf = 0;
-            return $buf;
-        }
+        //function setter(buf) {
+         //   $buf = 0;
+           // return $buf;
+        //}
 
         ?>
 
