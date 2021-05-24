@@ -14,9 +14,10 @@ else if ($output == 1){
 
     if ($buf == 10) {
         $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
+        echo "<div>$comm</div>";
     }
 }
 
-echo "<div>$comm</div>";
+//echo "<div>$comm</div>";
 echo "<br><div>$log</div><br>";
 ?>
