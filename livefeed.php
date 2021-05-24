@@ -21,7 +21,8 @@ else {
 
     //$comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     //echo "<div>$comm</div>";
-    $buf = 1;
+    else
+        $buf = 1;
 
 
     //if ($buf == 0) {
