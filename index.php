@@ -28,8 +28,8 @@
             <p>Loading Data...</p>
         </div>
 
-        <div id="liveData2">
+        <!--<div id="liveData2">
             <p>Loading Data2...</p>
-        </div>
+        </div>-->
     </body>
 </html>
