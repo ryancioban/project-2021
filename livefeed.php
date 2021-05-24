@@ -9,7 +9,7 @@ if ($output == 0){
     $buf = 0;
 }
 
-else if ($output == 1){
+else {
     echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
 
