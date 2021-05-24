@@ -23,7 +23,6 @@ if ($output == 1){
 else {
 //if ($output == 0){
     echo "<br>Door Status: LOCKED<br>";
-    $buf = 0;
 }
 
 //echo "<div>$comm</div>";
