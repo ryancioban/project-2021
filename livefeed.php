@@ -16,7 +16,7 @@ elseif ($output == 1 && $buf == 0){
     $buf = 1;
 }
 
-elseif ($output == 1 && $buf == 1){
+else {
     echo "<br>Door Status: UNLOCKED<br>";
 }
 
