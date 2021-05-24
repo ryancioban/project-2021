@@ -12,13 +12,14 @@ if ($output == 0){
 else if ($output == 1){
     echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
+    $buf = 1;
 
-    if ($buf == 0) {
-        echo "<br>Door Status: UNLOCKED bruh<br>";
+    //if ($buf == 0) {
+        //echo "<br>Door Status: UNLOCKED bruh<br>";
         $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
         echo "<div>$comm</div>";
-        $buf = 1;
-    }
+       // $buf = 1;
+    //}
 
    //else {
     //    echo "<br>Door Status: UNLOCKED<br>";
@@ -26,5 +27,7 @@ else if ($output == 1){
 }
 
 //echo "<div>$comm</div>";
+echo "<br><div>$buf</div><br>";
 echo "<br><div>$log</div><br>";
+
 ?>
