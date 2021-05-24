@@ -13,16 +13,6 @@
 
         <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
         <br>
-        <p>The time is : <span id="date"></span>.</p>
-
-
-        <script type="text/javascript" language="javascript">
-
-        function getDate() {
-            document.getElementById('date').innerText = Date().toString();
-        }
-
-        </script>
 
         <div id="liveData">
             <p>Loading Data...</p>

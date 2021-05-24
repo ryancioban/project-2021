@@ -2,7 +2,7 @@
 //$output = shell_exec('ssh pi@192.168.2.38 gpio read 2');
 $output2 = shell_exec('gpio read 2');
 $log = shell_exec('tail -n 15 /home/pi/test1.txt');
-echo "The time is:";
+echo "The time is: ";
 echo date("D j F Y h:i:s A") . "<br>";
 
 if ($output2 == 0){
