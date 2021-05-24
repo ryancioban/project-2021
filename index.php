@@ -3,7 +3,6 @@
     <head>
         <title>Cam-Lock</title>
         <script type="text/javascript" src="autoUpdate.js"></script>
-        <script type="text/javascript" src="autoUpdate2.js"></script>
     </head>
 
     <body onload= "getDate();">
@@ -26,10 +25,6 @@
 
         <div id="liveData">
             <p>Loading Data...</p>
-        </div>
-
-        <div id="liveData2">
-            <p>Loading Data2...</p>
         </div>
     </body>
 </html>
