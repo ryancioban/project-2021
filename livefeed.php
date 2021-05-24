@@ -4,12 +4,12 @@ $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 //echo date ('H:i:s');
 //$buf = 1;
 
-if ($output == 0){
+/*if ($output == 0){
     echo "<br>Door Status: LOCKED<br>";
     $buf = 0;
-}
+}*/
 
-else if ($output == 1){
+if ($output == 1){
     //echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
 
@@ -36,6 +36,12 @@ else if ($output == 1){
    //else {
     //    echo "<br>Door Status: UNLOCKED<br>";
    // }
+}
+
+else {
+//if ($output == 0){
+    echo "<br>Door Status: LOCKED<br>";
+    $buf = 0;
 }
 
 //echo "<div>$comm</div>";
