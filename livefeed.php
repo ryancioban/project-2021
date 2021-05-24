@@ -6,14 +6,14 @@ $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output == 0){
     echo "<br>Door Status: LOCKED<br>";
-    $buf = 0;
+    $buf=0;
 }
 
-elseif ($output == 1 && $buf == 0){
+elseif ($output==1 && $buf==0){
     echo "<br>Door Status: UNLOCKED<br>";
     shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     //echo "<div>$comm</div>";
-    $buf = 1;
+    $buf=1;
 }
 
 else {
