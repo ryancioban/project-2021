@@ -11,7 +11,7 @@ if ($output == 0){
 
 elseif ($output == 1 && $buf == 0){
     echo "<br>Door Status: UNLOCKED<br>";
-    $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
+    shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     //echo "<div>$comm</div>";
     $buf = 1;
 }
