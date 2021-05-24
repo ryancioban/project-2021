@@ -11,13 +11,13 @@ $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output == 1){
     echo "<br>Door Status: UNLOCKED<br>";
-    if ($buf == 1){
+    while ($buf == 1){
         echo "it worked!";
         goto end;
     }
     $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     echo "<div>$comm</div>";
-    $buf++;
+    $buf == 1;
 }
 
 else{
