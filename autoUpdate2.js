@@ -2,7 +2,7 @@ window.addEventListener('load', function()
 {
     var xhr = null;
 
-    getXmlHttpRequestObject = function()
+    getXmlHttpRequestObject2 = function()
     {
         if(!xhr)
         {               
@@ -18,7 +18,7 @@ window.addEventListener('load', function()
         // Date string is appended as a query with live data 
         // for not to use the cached version 
         var url = 'livefeed2.php?' + now.getTime();
-        xhr = getXmlHttpRequestObject();
+        xhr = getXmlHttpRequestObject2();
         xhr.onreadystatechange = evenHandler;
         // asynchronous requests
         xhr.open("GET", url, true);
