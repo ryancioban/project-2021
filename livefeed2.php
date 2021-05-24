@@ -9,7 +9,7 @@ if ($output2 == 0){
 }
 
 elseif ($output2 == 1){
-    sleep(5);
+    sleep(6);
     //echo "<br>Door Status: UNLOCKED<br>";
     shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     shell_exec('gpio write 2 0');
