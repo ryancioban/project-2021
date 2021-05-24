@@ -24,12 +24,12 @@
 
         </script>
 
-        loadLib("autoUpdate.js");
+        loadLib("autoUpdate.js")
         <div id="liveData">
             <p>Loading Data...</p>
         </div>
 
-        loadLib("autoUpdate2.js");
+        loadLib("autoUpdate2.js")
         <div id="liveData2">
             <p>Loading Data...</p>
         </div>
