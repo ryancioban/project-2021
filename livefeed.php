@@ -13,19 +13,19 @@ if ($output == 1){
     echo "<br>Door Status: UNLOCKED<br>";
     //$buf++;
 
-    if ($buf == 1) {
-        break;
+    //if ($buf == 1) {
+        //break;
         //echo "<br>Door Status: UNLOCKED<br>";
-    }
+   // }
 
     //$comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     //echo "<div>$comm</div>";
-    else{
+    //else{
         echo "<br>The door is unlocked and the code works.<br>";
         $comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
         echo "<div>$comm</div>";
         $buf = 1;
-    }
+    //}
     //if ($buf == 0) {
         //echo "<br>Door Status: UNLOCKED bruh<br>";
         //$comm = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
