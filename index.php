@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Cam-Lock</title>
-        <script type="text/javascript" src="autoUpdate.js"></script>
         <script type="text/javascript" src="autoUpdate2.js"></script>
+        <script type="text/javascript" src="autoUpdate.js"></script>
     </head>
 
     <body onload= "getDate();">
