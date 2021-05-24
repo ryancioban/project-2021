@@ -27,7 +27,4 @@ $x = 0;
 //echo "<br><div>$buf</div><br>";
 end:
 echo "<br><div>$log</div><br>";
-sleep(5);
-
-
 ?>
