@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Cam-Lock</title>
-        <script type="text/javascript" src="autoUpdate2.js"></script>
         <script type="text/javascript" src="autoUpdate.js"></script>
+        <script type="text/javascript" src="autoUpdate2.js"></script>
     </head>
 
     <body onload= "getDate();">
@@ -24,10 +24,12 @@
 
         </script>
 
+        loadLib("autoUpdate.js");
         <div id="liveData">
             <p>Loading Data...</p>
         </div>
 
+        loadLib("autoUpdate2.js");
         <div id="liveData2">
             <p>Loading Data...</p>
         </div>
