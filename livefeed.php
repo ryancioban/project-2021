@@ -1,6 +1,6 @@
 <?php
 $output = shell_exec('ssh pi@192.168.2.38 gpio read 2');
-shell_exec('logout');
+//shell_exec('logout');
 //$log = shell_exec('tail -n 15 /home/pi/test1.txt');
 
 if ($output == 0){
