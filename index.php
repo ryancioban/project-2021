@@ -19,7 +19,6 @@
         </div>
         
         <br>
-        <p>System Logs</p>
         <div id="liveData2">
             <p>Loading Data...</p>
         </div>
