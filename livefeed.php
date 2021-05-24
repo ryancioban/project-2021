@@ -11,8 +11,8 @@ if ($output == 0){
 elseif ($output==1){
     echo "<br>Door Status: UNLOCKED<br>";
     for ($x=0; $x<10; $x++){
-        usleep(10);
-        if ($x > 8 ) goto end;
+        //usleep(10);
+        if ($x < 5 ) goto end;
 
         shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> /home/pi/test1.txt');
     }
