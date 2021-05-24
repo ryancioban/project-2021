@@ -9,7 +9,8 @@ if ($output == 0){
 
 else if ($output == 1){
     echo "<br>Door Status: UNLOCKED<br>";
-    shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> test1.txt');
+    $cmd = shell_exec('echo "Unlocked via Fingerprint @ `date` <br>" >> test1.txt');
+    echo "<div>$cmd</div>";
 }
 
 echo "<br><div>$log</div><br>";
