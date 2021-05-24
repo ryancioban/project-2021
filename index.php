@@ -23,6 +23,14 @@
 
         </script>
 
+        <?php
+        function setter(buf) {
+            $buf = 0;
+            return $buf;
+        }
+
+        ?>
+
         <div id="liveData">
             <p>Loading Data...</p>
         </div>

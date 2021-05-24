@@ -1,4 +1,5 @@
 <?php
+include "index.php";
 $output = shell_exec('ssh pi@192.168.2.38 gpio read 2');
 $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 //echo date ('H:i:s');
