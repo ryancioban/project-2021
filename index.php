@@ -12,7 +12,7 @@
         <h2>Camera Feed</h2>
         <br>
 
-        <!--Get remote camera source as an image-->
+        <!--Get camera source as an image-->
         <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
         <br>
 
