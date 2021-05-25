@@ -11,6 +11,6 @@
             sleep(5);
             shell_exec('ssh pi@192.168.2.38 gpio write 3 0');
         ?>
-        <div>Go back to<a href="index.php">main</a> page.</div>
+        <div>Go back to <a href="index.php">main</a> page.</div>
     </body>
 </html>
