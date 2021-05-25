@@ -5,6 +5,7 @@
         <!--Import AutoUpdater scripts-->
         <script type="text/javascript" src="autoUpdate.js"></script>
         <script type="text/javascript" src="autoUpdate2.js"></script>
+        <script type="text/javascript" src="OpenTheDoor.js"></script>
     </head>
 
     <body>
@@ -14,6 +15,10 @@
 
         <!--Get remote camera source as an image-->
         <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
+        <br>
+
+        <br>
+        <button onclick="control()">Open the Lock!</button>
         <br>
 
         <!--Load door status-->
