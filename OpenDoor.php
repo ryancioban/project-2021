@@ -9,7 +9,7 @@
             shell_exec('ssh pi@192.168.2.38 gpio write 3 1');
             //Timestamp to logs
             shell_exec('echo "Unlocked via Web @ `date` <br>" >> /home/pi/test1.txt');
-            echo "<br>Opening the lock...<br>";
+            echo "<br>The lock has been released...<br>";
             //Buffer for propagation
             sleep(5);
             //Reset pin to LOW.
