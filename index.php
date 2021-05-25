@@ -17,9 +17,9 @@
         <div id="liveData">
             <p>Loading Data...</p>
         </div>
-        
+
         <form method="post" action="fullLog.php">
-            <div><input class="button" value="Access Full Logs">
+            <div><input class="button" type="submit" value="Access Full Logs">
         </form>
         
         <br>
