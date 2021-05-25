@@ -6,7 +6,6 @@
     //Show REAL time
     echo "The time is: ";
     echo date("D j F Y h:i:s A") . "<br><br>";
-    //echo "Recent System Logs <br>";
 
     if ($output2 == 0){
         goto end; //No action needed here, just skip to end and display recent entries
