@@ -30,6 +30,7 @@
         
         <!--Load recent system logs-->
         <br>
+        <h3>Recent System Logs</h3>
         <div id="liveData2">
             <p>Loading Data...</p>
         </div>
