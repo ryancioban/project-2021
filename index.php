@@ -18,9 +18,15 @@
             <p>Loading Data...</p>
         </div>
         
+        <form method="post" action="fullLog.php">
+            <div><input class="button" value="Access Full Logs">
+        </form>
+        
         <br>
         <div id="liveData2">
             <p>Loading Data...</p>
         </div>
+
+
     </body>
 </html>
