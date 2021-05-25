@@ -4,7 +4,7 @@ $output2 = shell_exec('gpio read 2');
 $log = shell_exec('tail -n 15 /home/pi/test1.txt');
 echo "The time is: ";
 echo date("D j F Y h:i:s A") . "<br><br>";
-echo "System Logs <br>";
+echo "Recent System Logs <br>";
 
 if ($output2 == 0){
     //echo "<br>nothing here<br>";
