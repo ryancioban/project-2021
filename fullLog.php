@@ -6,7 +6,7 @@
     <body>
         <?php
             //Show full log history
-            $history = shell_exec('cat /home/pi/test1.txt');
+            $history = shell_exec('cat /home/pi/door.log');
             echo "<br>$history<br>";
         ?>
     </body>
