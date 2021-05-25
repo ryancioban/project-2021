@@ -5,7 +5,7 @@
         <!--Import AutoUpdater scripts-->
         <script type="text/javascript" src="autoUpdate.js"></script>
         <script type="text/javascript" src="autoUpdate2.js"></script>
-        <script type="text/javascript" src="OpenTheDoor.js"></script>
+        <!--<script type="text/javascript" src="OpenTheDoor.js"></script>-->
     </head>
 
     <body>
@@ -17,8 +17,14 @@
         <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
         <br>
 
-        <br>
+        <!--<br>
         <button onclick="control()">Open the Lock!</button>
+        <br>-->
+
+        <br>
+        <form method="post" action="OpenDoor.php" target=" _blank">
+            <div><input class="button" type="submit" value="Open the Lock!">
+        </form>
         <br>
 
         <!--Load door status-->
