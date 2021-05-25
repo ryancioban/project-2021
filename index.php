@@ -13,7 +13,7 @@
         <br>
 
         <!--Get camera source as an image-->
-        <img src="http://192.168.2.38:8081/" alt="Camera is down :(">
+        <img src="http://65.94.43.3:8081/" alt="Camera is down :(">
         <br>
 
         <!--Prompt to open lock-->
