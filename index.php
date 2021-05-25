@@ -19,7 +19,7 @@
         </div>
 
         <br>
-        <form method="post" action="fullLog.php">
+        <form method="post" action="fullLog.php" target=" _blank">
             <div><input class="button" type="submit" value="Access Full Logs">
         </form>
         <br>
